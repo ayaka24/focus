@@ -3,11 +3,27 @@
     /*--------------------------------------*
  * Works
  *--------------------------------------*/
+    .works_content {
+        height: auto;
+        align-items: flex-start;
+    }
 
     .works_item {
         width: 46%;
+        margin-bottom: 10.3vw;
     }
 
+    #worksSection1 {
+        .works_content {
+            margin-top: 0 !important;
+        }
+    }
+
+    .waku {
+        height: 23.04vw;
+        top: 0%;
+        left: -3%;
+    }
 
     /*--------------------------------------*
  * contact
@@ -74,5 +90,11 @@
 
     .works_item {
         width: 100%;
+    }
+
+    .waku {
+        height: 50.3vw;
+        top: -1.4%;
+        left: -3%;
     }
 }
