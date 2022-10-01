@@ -1,16 +1,78 @@
-// @media screen and (min-width:767px) and (max-width:1660px) {
+@media screen and (max-width: 880px) {
 
-//     .swiper {
-//         min-height: 15vw !important;
+    /*--------------------------------------*
+ * Works
+ *--------------------------------------*/
 
-//     }
+    .works_item {
+        width: 46%;
+    }
 
-// }
 
-// @media screen and (min-width:1661px) {
+    /*--------------------------------------*
+ * contact
+ *--------------------------------------*/
+    #contact_sec {
+        .box {
+            flex-direction: column;
 
-//     .swiper {
-//         min-height: 13vw !important;
-//     }
 
-// }
+            .item {
+                width: 100%;
+                padding: 0 4vw;
+                box-sizing: border-box;
+
+                &:first-child {
+                    &::after {
+                        display: none;
+                    }
+                }
+
+                .btn_contact {
+                    min-width: 260px;
+                    width: 50vw;
+                }
+            }
+
+            .item_contact {
+                margin-top: 15vw;
+            }
+        }
+    }
+}
+
+
+/*--------------------------------------*
+ * company
+ *--------------------------------------*/
+#company_sec {
+    .company_table {
+        width: 80%;
+
+        th,
+        td {
+            padding: 2rem 0;
+            border: none;
+            border-bottom: 1px solid #545454;
+            border-collapse: separate
+        }
+
+        td {
+            padding-left: 4rem;
+        }
+    }
+
+    .other_service {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .works_section {
+        height: auto;
+    }
+
+    .works_item {
+        width: 100%;
+    }
+}

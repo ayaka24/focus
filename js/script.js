@@ -2,11 +2,23 @@ $(".menu").on("click", function () {
   $(".menu__line").toggleClass("active");
   $(".gnav").fadeToggle();
 });
+$(".gnav__wrap").on("click", function () {
+  $(".menu__line").toggleClass("active");
+  $(".gnav").fadeToggle();
+});
+
 jQuery(function () {
   jQuery("#fullpage").fullpage({
     scrollOverflow: true,
   });
 });
+
+// if (window.matchMedia("(min-width: 561px)").matches) {
+//   //画面幅561px以上の場合
+//   document.write(
+//     '<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.js"></script>'
+//   );
+// }
 
 const mySwiper = new Swiper(".swiper", {
   loop: true,

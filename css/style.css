@@ -726,11 +726,12 @@ img {
   position: relative;
 }
 #company_sec .company_table {
-  max-width: 1100px;
+  max-width: 1000px;
   width: 53.3333333333vw;
-  margin: 7.2vw auto 0;
+  margin: 5vw auto 0;
   border-collapse: collapse;
   border-spacing: 0;
+  font-size: clamp(1.4rem, 1.25vw, 1.8rem);
 }
 #company_sec .company_table tbody {
   display: table-row-group;
@@ -744,13 +745,14 @@ img {
 }
 #company_sec .company_table th,
 #company_sec .company_table td {
-  padding: 1.8vw 0;
+  padding: 1.4vw 0;
   border: none;
   border-bottom: 1px solid #545454;
   border-collapse: separate;
 }
 #company_sec .company_table th {
   width: 26%;
+  font-weight: 600;
 }
 #company_sec .company_table td {
   padding-left: 10%;
@@ -758,7 +760,7 @@ img {
 #company_sec .other_service {
   display: flex;
   justify-content: space-between;
-  max-width: 1100px;
+  max-width: 1000px;
   width: 53.3333333333vw;
   margin: 5vw auto 6vw;
 }
@@ -785,5 +787,63 @@ img {
 .footer_area .copyright {
   color: #fff;
   text-align: center;
+}
+
+@media screen and (max-width: 880px) {
+  /*--------------------------------------*
+  * Works
+  *--------------------------------------*/
+  .works_item {
+    width: 46%;
+  }
+  /*--------------------------------------*
+  * contact
+  *--------------------------------------*/
+  #contact_sec .box {
+    flex-direction: column;
+  }
+  #contact_sec .box .item {
+    width: 100%;
+    padding: 0 4vw;
+    box-sizing: border-box;
+  }
+  #contact_sec .box .item:first-child::after {
+    display: none;
+  }
+  #contact_sec .box .item .btn_contact {
+    min-width: 260px;
+    width: 50vw;
+  }
+  #contact_sec .box .item_contact {
+    margin-top: 15vw;
+  }
+}
+/*--------------------------------------*
+ * company
+ *--------------------------------------*/
+#company_sec .company_table {
+  width: 80%;
+}
+#company_sec .company_table th,
+#company_sec .company_table td {
+  padding: 2rem 0;
+  border: none;
+  border-bottom: 1px solid #545454;
+  border-collapse: separate;
+}
+#company_sec .company_table td {
+  padding-left: 4rem;
+}
+#company_sec .other_service {
+  width: 80%;
+}
+
+@media screen and (max-width: 560px) {
+  .works_section {
+    height: auto;
+  }
+  .works_item {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

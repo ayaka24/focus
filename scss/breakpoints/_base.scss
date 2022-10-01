@@ -790,11 +790,12 @@
 
 
     .company_table {
-        max-width: 1100px;
+        max-width: 1000px;
         width: calc(768/1440*100vw);
-        margin: 7.2vw auto 0;
+        margin: 5vw auto 0;
         border-collapse: collapse;
         border-spacing: 0;
+        font-size: clamp(1.4rem, 18/1440*100vw, 1.8rem);
 
         tbody {
             display: table-row-group;
@@ -811,7 +812,7 @@
 
         th,
         td {
-            padding: 1.8vw 0;
+            padding: 1.4vw 0;
             border: none;
             border-bottom: 1px solid #545454;
             border-collapse: separate
@@ -819,6 +820,7 @@
 
         th {
             width: 26%;
+            font-weight: 600;
         }
 
         td {
@@ -829,7 +831,7 @@
     .other_service {
         display: flex;
         justify-content: space-between;
-        max-width: 1100px;
+        max-width: 1000px;
         width: calc(768/1440*100vw);
         margin: 5vw auto 6vw;
 
