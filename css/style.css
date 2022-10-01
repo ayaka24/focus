@@ -304,7 +304,7 @@ a {
   content: "";
   position: absolute;
   width: 105%;
-  height: 10.866vw;
+  height: 10.444vw;
   border: 1px solid #000;
   top: 1.5%;
   left: -3%;
@@ -316,8 +316,8 @@ a {
   width: 20vw;
   margin: 0.88vw auto 0;
   z-index: 100;
+  height: auto;
 }
-
 .video_part {
   position: relative;
   z-index: 4;

@@ -236,7 +236,7 @@ a {
     position: absolute;
     width: 105%;
     // max-height: calc(190px + 0.89vw);
-    height: 10.866vw;
+    height: 10.444vw;
     border: 1px solid #000;
     top: 1.5%;
     left: -3%;
@@ -248,6 +248,11 @@ a {
     width: 20vw;
     margin: 0.88vw auto 0;
     z-index: 100;
+    height: auto;
+
+    img:first-child {
+        // height: 10vw;
+    }
 }
 
 
