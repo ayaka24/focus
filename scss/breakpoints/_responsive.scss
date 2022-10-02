@@ -11,11 +11,15 @@
     .works_item {
         width: 46%;
         margin-bottom: 10.3vw;
+
+        &:first-child {
+            // margin-top: 5vw;
+        }
     }
 
     #worksSection1 {
         .works_content {
-            margin-top: 0 !important;
+            margin-top: 4vw !important;
         }
     }
 
@@ -24,6 +28,11 @@
         top: 0%;
         left: -3%;
     }
+
+    .fp-slides {
+        overflow: visible;
+    }
+
 
     /*--------------------------------------*
  * contact

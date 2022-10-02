@@ -353,9 +353,6 @@ a {
   height: 6px;
 }
 
-.desc_area {
-  padding: 0 0.4vw;
-}
 .desc_area .comp_name {
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "Open Sans", "Hiragino Sans", "メイリオ", sans-serif;
   font-size: clamp(1.6rem, 1.1111111111vw, 1.6rem);
@@ -371,6 +368,7 @@ a {
 .desc_area .use_text {
   font-size: clamp(1.2rem, 0.8333333333vw, 1.4rem);
   margin-top: 0.5vw;
+  color: #494949;
 }
 .desc_area .link_btn {
   font-size: clamp(1.2rem, 0.8333333333vw, 1.4rem);
@@ -844,12 +842,15 @@ a {
     margin-bottom: 10.3vw;
   }
   #worksSection1 .works_content {
-    margin-top: 0 !important;
+    margin-top: 4vw !important;
   }
   .waku {
     height: 23.04vw;
     top: 0%;
     left: -3%;
+  }
+  .fp-slides {
+    overflow: visible;
   }
   /*--------------------------------------*
   * contact
