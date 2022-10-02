@@ -64,6 +64,10 @@
             }
         }
     }
+
+    .embed {
+        height: auto;
+    }
 }
 
 
@@ -106,4 +110,26 @@
         top: -1.4%;
         left: -3%;
     }
+
+    #company_sec {
+        .company_table {
+            width: 88%;
+
+            th,
+            td {
+                padding: 1.4rem 0;
+            }
+        }
+
+        .other_service {
+            display: block;
+            width: 88%;
+
+            a {
+                width: 100%;
+                margin-bottom: 3vw;
+            }
+        }
+    }
+
 }
