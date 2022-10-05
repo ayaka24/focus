@@ -251,7 +251,7 @@ img {
  *--------------------------------------*/
 #hero {
   text-align: center;
-  background-image: url(/image/top/top_circle.png), url(/image/top/top_img.png);
+  background-image: url(../image/top/top_circle.png), url(../image/top/top_img.png);
   background-repeat: no-repeat;
   background-size: cover, cover;
   background-position: center;
@@ -673,7 +673,7 @@ img {
  * Operation
  *--------------------------------------*/
 #operationSec {
-  background: url(../../image/top/operation.jpg);
+  background: url(../image/top/operation.jpg);
   color: #fff;
 }
 #operationSec .container {
