@@ -181,7 +181,7 @@ img {
     color: #fff;
 
     .main_title {
-        font-size: clamp(100px, 153.34/1149.354*100vw, 153.34px);
+        font-size: clamp(50px, 153.34/1149.354*100vw, 153.34px);
         font-weight: 300;
         letter-spacing: 2.4rem;
         line-height: 1;
@@ -189,6 +189,7 @@ img {
 
     .sub {
         font-size: clamp(16px, 21.34/1149.354*100vw, 21.34px);
+        padding: 0 1.2rem;
     }
 }
 
@@ -267,6 +268,7 @@ img {
     .container {
         padding: 0 calc(86.551/1149.354*100vw);
         max-width: 1200px;
+        // max-width: calc(86vh * 10 / 5.5);
         margin: 5vw auto 0;
     }
 
@@ -276,6 +278,7 @@ img {
         max-height: 740px;
         margin-top: 5vw;
         max-width: 1200px;
+        // max-width: calc(86vh * 10 / 5.5);
         margin: auto;
 
         .circle {
@@ -288,7 +291,7 @@ img {
     }
 
     .purchase_btn {
-        font-size: clamp(40px, 53.34/1149.354*100vw, 53.34px);
+        font-size: clamp(20px, 53.34/1149.354*100vw, 53.34px);
         height: calc(74.456/1149.354*100vw);
 
         a {
@@ -303,7 +306,8 @@ img {
         justify-content: space-between;
         flex-wrap: wrap;
         padding: 0 calc(91.086/1149.354*100vw);
-        max-width: 1400px;
+        max-width: 1200px;
+        // max-width: calc(86vh * 10 / 5.5);
         margin: -3vw auto 0;
     }
 
@@ -316,7 +320,8 @@ img {
         width: calc(438.425/1149.354*100vw);
         height: calc(246.047/1149.354*100vw);
         max-width: 100%;
-        max-height: 280px;
+        max-height: 300px;
+
 
         .name_area {
             position: absolute;
@@ -339,7 +344,7 @@ img {
     .purchase_btn {
         a {
             padding-top: 0.7vw;
-            font-size: clamp(24px, 32/1149.354*100vw, 32px);
+            font-size: clamp(16px, 32/1149.354*100vw, 32px);
             width: calc(438.425/1149.354*100vw);
             height: calc(49.511/1149.354*100vw);
             max-width: 100%;
@@ -357,6 +362,7 @@ img {
         flex-wrap: wrap;
         padding: 0 calc(18.141/1149.354*100vw);
         max-width: 1600px;
+        // max-width: calc(86vh * 10 / 5.5);
         margin: -4vw auto 0;
 
     }
@@ -371,7 +377,8 @@ img {
         width: calc(359.055/1149.354*100vw);
         height: calc(216.945/1149.354*100vw);
         max-width: 100%;
-        max-height: 250px;
+        // max-height: 250px;
+        max-height: 24vh;
 
         .name_area {
             font-size: clamp(12px, 9.34/1149.354*100vw, 18px);
@@ -389,7 +396,7 @@ img {
     .purchase_btn {
         a {
             padding-top: 0.7vw;
-            font-size: clamp(18px, 26.67/1149.354*100vw, 26.67px);
+            font-size: clamp(13px, 26.67/1149.354*100vw, 26.67px);
             width: calc(359.055/1149.354*100vw);
             height: calc(45.354/1149.354*100vw);
             max-width: 100%;
@@ -428,7 +435,7 @@ img {
         .title_area {
             background: transparent;
             color: #fff;
-            font-size: clamp(36px, 42.67/1149.354*100vw, 42.67px);
+            font-size: clamp(20px, 42.67/1149.354*100vw, 42.67px);
             margin-bottom: calc(45.252/1149.354*100vw);
         }
     }
@@ -436,6 +443,8 @@ img {
     .banner_content {
         position: relative;
         z-index: 30;
+        max-width: 1600px;
+        margin: auto;
 
 
         .line_banner {
@@ -458,6 +467,14 @@ img {
 
         .banner_item {
             position: relative;
+            height: calc(332.220/1149.354*100vw);
+            max-height: 500px;
+
+
+            img {
+                height: 100%;
+            }
+
 
             .campaign_text {
                 color: #fff;
@@ -474,11 +491,11 @@ img {
 
 
             .campaign_text1 {
-                right: 1%;
+                right: 3.5%;
             }
 
             .campaign_text2 {
-                left: 1%;
+                left: 3.5%;
             }
 
 
@@ -494,18 +511,20 @@ img {
  *--------------------------------------*/
 #clientSec {
     .title_area {
-        font-size: clamp(36px, 42.67/1149.354*100vw, 42.67px);
+        font-size: clamp(20px, 42.67/1149.354*100vw, 42.67px);
         margin-bottom: 4vw;
     }
 
     .grid_wrapper {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        // grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 0.5vw;
         grid-row-gap: 0.5vw;
         padding: 0 calc(86.551/1149.354*100vw);
         // max-height: 86vh;
+        max-width: 1600px;
+        margin: auto;
 
         .grid_item {
             position: relative;
@@ -541,16 +560,16 @@ img {
                 display: block;
                 background-size: cover !important;
                 z-index: 60;
-                transition: .5s;
-                -webkit-transition: .5s;
-                -moz-transition: .5s;
-                -ms-transition: .5s;
-                -o-transition: .5s;
+                transition: .7s;
+                -webkit-transition: .7s;
+                -moz-transition: .7s;
+                -ms-transition: .7s;
+                -o-transition: .7s;
             }
 
             &_01 {
                 grid-area: 1 / 1 / 2 / 7;
-                min-height: calc(258.897/1440*100vw);
+                height: calc(258.897/1440*100vw);
 
                 &::after {
                     background: url(../image/top/company_big.jpg) no-repeat center left;
@@ -560,7 +579,7 @@ img {
 
             &_02 {
                 grid-area: 2 / 1 / 3 / 4;
-                min-height: calc(193.134/1440*100vw);
+                height: calc(193.134/1440*100vw);
 
                 &::after {
                     background: url(../image/top/company_big.jpg) no-repeat center left;
@@ -569,7 +588,7 @@ img {
 
             &_03 {
                 grid-area: 2 / 4 / 3 / 7;
-                min-height: calc(193.134/1440*100vw);
+                height: calc(193.134/1440*100vw);
 
                 &::after {
                     background: url(../image/top/company_big.jpg) no-repeat center left;
@@ -578,7 +597,7 @@ img {
 
             &_04 {
                 grid-area: 3 / 1 / 4 / 3;
-                min-height: calc(193.134/1440*100vw);
+                height: calc(193.134/1440*100vw);
 
                 &::after {
                     background: url(../image/top/company_big.jpg) no-repeat center left;
@@ -587,7 +606,7 @@ img {
 
             &_05 {
                 grid-area: 3 / 3 / 4 / 5;
-                min-height: calc(193.134/1440*100vw);
+                height: calc(193.134/1440*100vw);
 
                 &::after {
                     background: url(../image/top/company_big.jpg) no-repeat center left;
@@ -596,7 +615,7 @@ img {
 
             &_06 {
                 grid-area: 3 / 5 / 4 / 7;
-                min-height: calc(193.134/1440*100vw);
+                height: calc(193.134/1440*100vw);
 
                 &::after {
                     background: url(../image/top/company_big.jpg) no-repeat center left;
@@ -643,11 +662,12 @@ img {
     .inner {
         padding: 0 calc(117.921/1440*100vw);
 
+
         .title {
             text-align: center;
 
             h2 {
-                font-size: clamp(6rem, 106.67/1440*100vw, 110px);
+                font-size: clamp(36px, 106.67/1440*100vw, 110px);
                 line-height: 1;
             }
 
@@ -658,7 +678,7 @@ img {
 
         .content {
             .about {
-                font-size: clamp(26px, 37.34/1149.354*100vw, 40px);
+                font-size: clamp(22px, 37.34/1149.354*100vw, 40px);
                 text-align: center;
                 margin-top: calc(60.582/1149.354*100vw);
                 position: relative;
@@ -670,13 +690,13 @@ img {
                     display: inline-block;
                     background-color: #BFBFBF;
                     position: absolute;
-                    bottom: -10px;
+                    bottom: calc(-10/1149.354*100vw);
                     left: calc(50% - 37.795/1149.354*100vw/2)
                 }
             }
 
             .text {
-                font-size: clamp(18px, 24/1149.354*100vw, 26px);
+                font-size: clamp(14px, 24/1149.354*100vw, 26px);
                 margin-top: calc(32.504/1149.354*100vw);
                 line-height: 1.7;
             }
@@ -694,14 +714,15 @@ img {
     .container {
         padding: 0 calc(49.889/1149.354*100vw);
 
+
         .title {
             font-weight: 300;
-            font-size: clamp(24px, 32/1149.354*100vw, 48px);
+            font-size: clamp(20px, 32/1149.354*100vw, 48px);
             margin-bottom: calc(20.126/1149.354*100vw);
         }
 
         .flow_part {
-            font-size: clamp(18px, 24/1149.354*100vw, 32px);
+            font-size: clamp(14px, 24/1149.354*100vw, 32px);
             line-height: 1.7;
         }
     }
@@ -724,11 +745,11 @@ img {
 
         a {
             color: #fff;
-            font-size: clamp(60px, 88/1149.354*100vw, 100px);
+            font-size: clamp(32px, 88/1149.354*100vw, 100px);
         }
 
         p {
-            font-size: clamp(24px, 36/1149.354*100vw, 44px);
+            font-size: clamp(20px, 36/1149.354*100vw, 44px);
         }
     }
 
@@ -742,7 +763,7 @@ img {
             font-family: futura-pt, sans-serif;
             font-weight: 500;
             font-style: normal;
-            font-size: clamp(24px, 32/1149.354*100vw, 32px);
+            font-size: clamp(18px, 32/1149.354*100vw, 32px);
         }
 
         .sub {

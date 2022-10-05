@@ -258,13 +258,14 @@ img {
   color: #fff;
 }
 #hero .main_title {
-  font-size: clamp(100px, 13.3414074341vw, 153.34px);
+  font-size: clamp(50px, 13.3414074341vw, 153.34px);
   font-weight: 300;
   letter-spacing: 2.4rem;
   line-height: 1;
 }
 #hero .sub {
   font-size: clamp(16px, 1.8566951522vw, 21.34px);
+  padding: 0 1.2rem;
 }
 
 /*--------------------------------------*
@@ -352,7 +353,7 @@ img {
   max-height: 160px;
 }
 #worksSection1 .purchase_btn {
-  font-size: clamp(40px, 4.6408678266vw, 53.34px);
+  font-size: clamp(20px, 4.6408678266vw, 53.34px);
   height: 6.4780737701vw;
 }
 #worksSection1 .purchase_btn a {
@@ -364,7 +365,7 @@ img {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 7.9249735069vw;
-  max-width: 1400px;
+  max-width: 1200px;
   margin: -3vw auto 0;
 }
 #worksSection2 .video_item {
@@ -375,7 +376,7 @@ img {
   width: 38.145340774vw;
   height: 21.407416688vw;
   max-width: 100%;
-  max-height: 280px;
+  max-height: 300px;
 }
 #worksSection2 .video_part .name_area {
   position: absolute;
@@ -394,7 +395,7 @@ img {
 }
 #worksSection2 .purchase_btn a {
   padding-top: 0.7vw;
-  font-size: clamp(24px, 2.7841726744vw, 32px);
+  font-size: clamp(16px, 2.7841726744vw, 32px);
   width: 38.145340774vw;
   height: 4.3077241651vw;
   max-width: 100%;
@@ -419,7 +420,7 @@ img {
   width: 31.2397224876vw;
   height: 18.8753856514vw;
   max-width: 100%;
-  max-height: 250px;
+  max-height: 24vh;
 }
 #worksSection3 .video_part .name_area {
   font-size: clamp(12px, 0.8126303993vw, 18px);
@@ -433,7 +434,7 @@ img {
 }
 #worksSection3 .purchase_btn a {
   padding-top: 0.7vw;
-  font-size: clamp(18px, 2.3204339133vw, 26.67px);
+  font-size: clamp(13px, 2.3204339133vw, 26.67px);
   width: 31.2397224876vw;
   height: 3.9460427336vw;
   max-width: 100%;
@@ -468,12 +469,14 @@ img {
 #campaignSec .inner .title_area {
   background: transparent;
   color: #fff;
-  font-size: clamp(36px, 3.7125202505vw, 42.67px);
+  font-size: clamp(20px, 3.7125202505vw, 42.67px);
   margin-bottom: 3.9371681832vw;
 }
 #campaignSec .banner_content {
   position: relative;
   z-index: 30;
+  max-width: 1600px;
+  margin: auto;
 }
 #campaignSec .banner_content .line_banner {
   width: 100%;
@@ -490,6 +493,11 @@ img {
 }
 #campaignSec .banner_content .banner_item {
   position: relative;
+  height: 28.9049326839vw;
+  max-height: 500px;
+}
+#campaignSec .banner_content .banner_item img {
+  height: 100%;
 }
 #campaignSec .banner_content .banner_item .campaign_text {
   color: #fff;
@@ -504,26 +512,27 @@ img {
   -o-transform: translateY(-50%);
 }
 #campaignSec .banner_content .banner_item .campaign_text1 {
-  right: 1%;
+  right: 3.5%;
 }
 #campaignSec .banner_content .banner_item .campaign_text2 {
-  left: 1%;
+  left: 3.5%;
 }
 
 /*--------------------------------------*
  * Client
  *--------------------------------------*/
 #clientSec .title_area {
-  font-size: clamp(36px, 3.7125202505vw, 42.67px);
+  font-size: clamp(20px, 3.7125202505vw, 42.67px);
   margin-bottom: 4vw;
 }
 #clientSec .grid_wrapper {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0.5vw;
   grid-row-gap: 0.5vw;
   padding: 0 7.5304040357vw;
+  max-width: 1600px;
+  margin: auto;
 }
 #clientSec .grid_wrapper .grid_item {
   position: relative;
@@ -557,15 +566,15 @@ img {
   display: block;
   background-size: cover !important;
   z-index: 60;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
 }
 #clientSec .grid_wrapper .grid_item_01 {
   grid-area: 1/1/2/7;
-  min-height: 17.9789583333vw;
+  height: 17.9789583333vw;
 }
 #clientSec .grid_wrapper .grid_item_01::after {
   background: url(../image/top/company_big.jpg) no-repeat center left;
@@ -573,35 +582,35 @@ img {
 }
 #clientSec .grid_wrapper .grid_item_02 {
   grid-area: 2/1/3/4;
-  min-height: 13.4120833333vw;
+  height: 13.4120833333vw;
 }
 #clientSec .grid_wrapper .grid_item_02::after {
   background: url(../image/top/company_big.jpg) no-repeat center left;
 }
 #clientSec .grid_wrapper .grid_item_03 {
   grid-area: 2/4/3/7;
-  min-height: 13.4120833333vw;
+  height: 13.4120833333vw;
 }
 #clientSec .grid_wrapper .grid_item_03::after {
   background: url(../image/top/company_big.jpg) no-repeat center left;
 }
 #clientSec .grid_wrapper .grid_item_04 {
   grid-area: 3/1/4/3;
-  min-height: 13.4120833333vw;
+  height: 13.4120833333vw;
 }
 #clientSec .grid_wrapper .grid_item_04::after {
   background: url(../image/top/company_big.jpg) no-repeat center left;
 }
 #clientSec .grid_wrapper .grid_item_05 {
   grid-area: 3/3/4/5;
-  min-height: 13.4120833333vw;
+  height: 13.4120833333vw;
 }
 #clientSec .grid_wrapper .grid_item_05::after {
   background: url(../image/top/company_big.jpg) no-repeat center left;
 }
 #clientSec .grid_wrapper .grid_item_06 {
   grid-area: 3/5/4/7;
-  min-height: 13.4120833333vw;
+  height: 13.4120833333vw;
 }
 #clientSec .grid_wrapper .grid_item_06::after {
   background: url(../image/top/company_big.jpg) no-repeat center left;
@@ -641,14 +650,14 @@ img {
   text-align: center;
 }
 #aboutFocus .inner .title h2 {
-  font-size: clamp(6rem, 7.4076388889vw, 110px);
+  font-size: clamp(36px, 7.4076388889vw, 110px);
   line-height: 1;
 }
 #aboutFocus .inner .title p {
   font-size: clamp(12px, 1.2763691604vw, 18px);
 }
 #aboutFocus .inner .content .about {
-  font-size: clamp(26px, 3.2487814894vw, 40px);
+  font-size: clamp(22px, 3.2487814894vw, 40px);
   text-align: center;
   margin-top: 5.270960905vw;
   position: relative;
@@ -660,11 +669,11 @@ img {
   display: inline-block;
   background-color: #BFBFBF;
   position: absolute;
-  bottom: -10px;
+  bottom: -0.8700539607vw;
   left: calc(50% - 1.6441844723vw);
 }
 #aboutFocus .inner .content .text {
-  font-size: clamp(18px, 2.0881295058vw, 26px);
+  font-size: clamp(14px, 2.0881295058vw, 26px);
   margin-top: 2.828023394vw;
   line-height: 1.7;
 }
@@ -681,11 +690,11 @@ img {
 }
 #operationSec .container .title {
   font-weight: 300;
-  font-size: clamp(24px, 2.7841726744vw, 48px);
+  font-size: clamp(20px, 2.7841726744vw, 48px);
   margin-bottom: 1.7510706014vw;
 }
 #operationSec .container .flow_part {
-  font-size: clamp(18px, 2.0881295058vw, 32px);
+  font-size: clamp(14px, 2.0881295058vw, 32px);
   line-height: 1.7;
 }
 
@@ -706,10 +715,10 @@ img {
 }
 #contactSec .title_area a {
   color: #fff;
-  font-size: clamp(60px, 7.6564748546vw, 100px);
+  font-size: clamp(32px, 7.6564748546vw, 100px);
 }
 #contactSec .title_area p {
-  font-size: clamp(24px, 3.1321942587vw, 44px);
+  font-size: clamp(20px, 3.1321942587vw, 44px);
 }
 #contactSec .company_area {
   position: absolute;
@@ -721,7 +730,7 @@ img {
   font-family: futura-pt, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: clamp(24px, 2.7841726744vw, 32px);
+  font-size: clamp(18px, 2.7841726744vw, 32px);
 }
 #contactSec .company_area .sub {
   margin-top: 1.3153475779vw;
@@ -880,111 +889,81 @@ img {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-@media screen and (max-width: 880px) {
-  /*--------------------------------------*
-  * Works
-  *--------------------------------------*/
-  .works_content {
-    height: auto;
-    align-items: flex-start;
+@media screen and (max-width: 600px) {
+  #hero .main_title {
+    letter-spacing: 1.6rem;
+    line-height: 1.3;
   }
-  .works_item {
-    width: 46%;
-    margin-bottom: 10.3vw;
-  }
-  #worksSection1 .works_content {
-    margin-top: 4vw !important;
-  }
-  .waku {
-    height: 23.04vw;
-    top: 0%;
-    left: -3%;
-  }
-  .fp-slides {
-    overflow: visible;
-  }
-  /*--------------------------------------*
-  * contact
-  *--------------------------------------*/
-  #contact_sec .box {
-    flex-direction: column;
-  }
-  #contact_sec .box .item {
-    width: 100%;
-    padding: 0 4vw;
-    box-sizing: border-box;
-  }
-  #contact_sec .box .item:first-child::after {
-    display: none;
-  }
-  #contact_sec .box .item .btn_contact {
-    min-width: 260px;
-    width: 50vw;
-  }
-  #contact_sec .box .item_contact {
-    margin-top: 15vw;
-  }
-  .embed {
-    height: auto;
-  }
-}
-/*--------------------------------------*
- * company
- *--------------------------------------*/
-#company_sec .company_table {
-  width: 80%;
-}
-#company_sec .company_table th,
-#company_sec .company_table td {
-  padding: 2rem 0;
-  border: none;
-  border-bottom: 1px solid #545454;
-  border-collapse: separate;
-}
-#company_sec .company_table td {
-  padding-left: 4rem;
-}
-#company_sec .other_service {
-  width: 80%;
-}
-
-@media screen and (max-width: 560px) {
-  .works_section {
-    height: auto;
-  }
-  .works_item {
+  #worksSection2 .video_item {
+    max-width: 100%;
     width: 100%;
   }
-  .waku {
-    height: 50.3vw;
-    top: -1.4%;
-    left: -3%;
+  #worksSection2 .video_part {
+    width: 80%;
+    height: 16vh;
   }
-  #company_sec .company_table {
-    width: 88%;
+  #worksSection2 .purchase_btn a {
+    width: 80%;
+    height: 3vh;
   }
-  #company_sec .company_table th,
-#company_sec .company_table td {
-    padding: 1.4rem 0;
+  #worksSection3 .video_item {
+    max-width: 50%;
+    width: 50%;
   }
-  #company_sec .other_service {
-    display: block;
-    width: 88%;
+  #worksSection3 .video_part {
+    width: 90%;
+    height: 13vh;
   }
-  #company_sec .other_service a {
-    width: 100%;
-    margin-bottom: 3vw;
+  #worksSection3 .purchase_btn a {
+    width: 90%;
+    height: 3vh;
+  }
+  #campaignSec .inner .title_area {
+    margin-bottom: 4vh;
+  }
+  #campaignSec .banner_content .line_banner_top {
+    height: 3vh;
+  }
+  #campaignSec .banner_content .line_banner_bottom {
+    height: 3vh;
+  }
+  #campaignSec .banner_content .banner_item {
+    height: 30vh;
+    max-height: auto;
+  }
+  #clientSec .grid_wrapper {
+    height: 70vh;
+  }
+  #clientSec .grid_wrapper .grid_item {
+    height: 23vh !important;
+  }
+  #contactSec .company_area {
+    bottom: 9vw;
   }
 }
 @media screen and (min-width: 1360px) {
   #worksSection1 .video_part .circle {
     top: -80px;
   }
+  #worksSection2 .video_part {
+    max-height: 29vh;
+  }
   #worksSection2 .video_part .circle {
     top: -56px;
   }
   #worksSection3 .video_part .circle {
     top: -50px;
+  }
+}
+@media screen and (max-height: 1000px) {
+  #worksSection1 .video_part {
+    max-height: 60vh;
+  }
+  #worksSection2 .video_part {
+    max-height: 24vh;
+  }
+  #worksSection3 .video_part {
+    max-height: 24vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
