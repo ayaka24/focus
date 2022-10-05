@@ -568,7 +568,7 @@ img {
   min-height: 17.9789583333vw;
 }
 #clientSec .grid_wrapper .grid_item_01::after {
-  background: url(../../image/top/company_big.jpg) no-repeat center left;
+  background: url(../image/top/company_big.jpg) no-repeat center left;
   z-index: 60;
 }
 #clientSec .grid_wrapper .grid_item_02 {
@@ -576,35 +576,35 @@ img {
   min-height: 13.4120833333vw;
 }
 #clientSec .grid_wrapper .grid_item_02::after {
-  background: url(../../image/top/company_big.jpg) no-repeat center left;
+  background: url(../image/top/company_big.jpg) no-repeat center left;
 }
 #clientSec .grid_wrapper .grid_item_03 {
   grid-area: 2/4/3/7;
   min-height: 13.4120833333vw;
 }
 #clientSec .grid_wrapper .grid_item_03::after {
-  background: url(../../image/top/company_big.jpg) no-repeat center left;
+  background: url(../image/top/company_big.jpg) no-repeat center left;
 }
 #clientSec .grid_wrapper .grid_item_04 {
   grid-area: 3/1/4/3;
   min-height: 13.4120833333vw;
 }
 #clientSec .grid_wrapper .grid_item_04::after {
-  background: url(../../image/top/company_big.jpg) no-repeat center left;
+  background: url(../image/top/company_big.jpg) no-repeat center left;
 }
 #clientSec .grid_wrapper .grid_item_05 {
   grid-area: 3/3/4/5;
   min-height: 13.4120833333vw;
 }
 #clientSec .grid_wrapper .grid_item_05::after {
-  background: url(../../image/top/company_big.jpg) no-repeat center left;
+  background: url(../image/top/company_big.jpg) no-repeat center left;
 }
 #clientSec .grid_wrapper .grid_item_06 {
   grid-area: 3/5/4/7;
   min-height: 13.4120833333vw;
 }
 #clientSec .grid_wrapper .grid_item_06::after {
-  background: url(../../image/top/company_big.jpg) no-repeat center left;
+  background: url(../image/top/company_big.jpg) no-repeat center left;
 }
 #clientSec .grid_wrapper .grid_item p {
   position: absolute;
