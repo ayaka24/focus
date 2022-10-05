@@ -133,3 +133,30 @@
     }
 
 }
+
+@media screen and (min-width: 1360px) {
+    #worksSection1 {
+        .video_part {
+            .circle {
+                top: -80px;
+            }
+        }
+    }
+
+    #worksSection2 {
+        .video_part {
+            .circle {
+                top: -56px;
+            }
+        }
+    }
+
+    #worksSection3 {
+        .video_part {
+            .circle {
+                top: -50px;
+            }
+        }
+
+    }
+}
