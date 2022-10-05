@@ -120,6 +120,19 @@ img {
 /*--------------------------------------*
  * video
  *--------------------------------------*/
+.fadein {
+  opacity: 0;
+  transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+}
+
+.section.fp-completely .fadein {
+  opacity: 1;
+}
+
 /*--------------------------------------*
  * Common
  *--------------------------------------*/
@@ -495,9 +508,18 @@ img {
   position: relative;
   height: 28.9049326839vw;
   max-height: 500px;
+  background-color: #000;
 }
 #campaignSec .banner_content .banner_item img {
   height: 100%;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#campaignSec .banner_content .banner_item img:hover {
+  opacity: 0.6;
 }
 #campaignSec .banner_content .banner_item .campaign_text {
   color: #fff;
@@ -544,6 +566,7 @@ img {
   z-index: 50;
   overflow: hidden;
   text-align: center;
+  background: #000;
 }
 #clientSec .grid_wrapper .grid_item::before {
   content: "";
@@ -566,11 +589,11 @@ img {
   display: block;
   background-size: cover !important;
   z-index: 60;
-  transition: 0.7s;
-  -webkit-transition: 0.7s;
-  -moz-transition: 0.7s;
-  -ms-transition: 0.7s;
-  -o-transition: 0.7s;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 #clientSec .grid_wrapper .grid_item_01 {
   grid-area: 1/1/2/7;
@@ -629,11 +652,7 @@ img {
   z-index: 90;
 }
 #clientSec .grid_wrapper .grid_item:hover::after {
-  transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
+  opacity: 0.6;
 }
 
 /*--------------------------------------*
@@ -716,6 +735,10 @@ img {
 #contactSec .title_area a {
   color: #fff;
   font-size: clamp(32px, 7.6564748546vw, 100px);
+  transition: 0.3s;
+}
+#contactSec .title_area a:hover {
+  color: #1C2D3A;
 }
 #contactSec .title_area p {
   font-size: clamp(20px, 3.1321942587vw, 44px);
