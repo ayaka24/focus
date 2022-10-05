@@ -231,7 +231,7 @@ img {
 
     .name_area {
         position: absolute;
-        right: 0;
+        right: 0.4vw;
         top: 1.4vw;
         writing-mode: vertical-rl;
         color: #fff;
@@ -367,6 +367,7 @@ img {
 
     }
 
+
     .video_item {
         max-width: 31%;
         margin-top: 6vw;
@@ -382,6 +383,7 @@ img {
 
         .name_area {
             font-size: clamp(12px, 9.34/1149.354*100vw, 18px);
+            top: 0.8vw;
         }
 
         .circle {

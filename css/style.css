@@ -315,7 +315,7 @@ img {
 }
 .video_part .name_area {
   position: absolute;
-  right: 0;
+  right: 0.4vw;
   top: 1.4vw;
   writing-mode: vertical-rl;
   color: #fff;
@@ -437,6 +437,7 @@ img {
 }
 #worksSection3 .video_part .name_area {
   font-size: clamp(12px, 0.8126303993vw, 18px);
+  top: 0.8vw;
 }
 #worksSection3 .video_part .circle {
   width: 5.8532880209vw;
