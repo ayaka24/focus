@@ -621,7 +621,7 @@ img {
   transform: translateY(-50%);
   color: #fff;
   width: 100%;
-  font-size: clamp(1.8rem, 2.2222222222vw, 3.6rem);
+  font-size: clamp(12px, 2.2222222222vw, 3.6rem);
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -900,7 +900,7 @@ img {
   }
   #worksSection2 .video_part {
     width: 80%;
-    height: 16vh;
+    height: 15vh;
   }
   #worksSection2 .purchase_btn a {
     width: 80%;
