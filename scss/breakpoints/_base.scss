@@ -62,7 +62,7 @@ img {
         height: 40px;
         position: absolute;
         right: 10px;
-        top: 10px;
+        top: 23px;
         width: 50px;
         z-index: 99;
         border-radius: 4px;
@@ -73,7 +73,7 @@ img {
     }
 
     .menu__line {
-        background: #fff;
+        background: #182531;
         display: block;
         height: 1px;
         position: absolute;
@@ -225,7 +225,7 @@ img {
 
     &:hover {
         a {
-            opacity: 0.6;
+            opacity: 0.5;
         }
     }
 
@@ -259,6 +259,21 @@ img {
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: .6s;
+        -webkit-transition: .6s;
+        -moz-transition: .6s;
+        -ms-transition: .6s;
+        -o-transition: .6s;
+
+        &:hover {
+            top: -3px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transform: scale(1.03);
+            -webkit-transform: scale(1.03);
+            -moz-transform: scale(1.03);
+            -ms-transform: scale(1.03);
+            -o-transform: scale(1.03);
+        }
     }
 }
 
@@ -433,6 +448,7 @@ img {
         padding: 0 calc(86.551/1149.354*100vw);
         max-width: 1800px;
         margin: auto;
+        max-height: 90vh;
 
         .title_area {
             background: transparent;
@@ -472,6 +488,7 @@ img {
             height: calc(332.220/1149.354*100vw);
             max-height: 500px;
             background-color: #000;
+            max-height: 38vh;
 
 
             img {

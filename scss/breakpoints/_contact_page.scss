@@ -1,0 +1,57 @@
+#contactPage {
+    .contact_title {
+        font-weight: 300;
+        letter-spacing: 0.8rem;
+        margin: auto;
+        text-align: center;
+        padding: 2.2rem;
+        font-size: 32px;
+
+        p {
+            position: relative;
+            top: 0.3rem;
+        }
+
+    }
+
+    .appo_area {
+        background-color: #1C2D3A;
+        color: #fff;
+        text-align: center;
+        padding: 100px 5.666vw;
+
+        .title_part {
+            .title {
+                font-size: 6rem;
+                letter-spacing: 0.6rem;
+            }
+        }
+
+        .calender_part {
+
+            .title {
+                font-weight: 300;
+                font-size: 3.2rem;
+            }
+
+            .calender {
+                width: 80%;
+                margin: 4.8rem auto 0;
+                height: 500px;
+                background-color: #fff;
+            }
+        }
+    }
+
+    .contact_area {
+        padding: 100px 5.666vw;
+
+        .title_part {
+            .title {
+                font-size: 6rem;
+                letter-spacing: 1.2rem;
+                text-align: center;
+            }
+        }
+    }
+}
