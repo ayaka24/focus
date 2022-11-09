@@ -1,147 +1,124 @@
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 800px) {
     #hero {
-        .main_title {
-            letter-spacing: 1.6rem;
-            line-height: 1.3;
-        }
+      .main_title {
+        letter-spacing: 1.6rem;
+        line-height: 1.3;
+      }
+  
+      .circle2 {
+        left: -10vw;
+      }
+  
+      .circle4 {
+        right: -60.2711331757vw;
+      }
+  
+      .circle5 {
+        bottom: -21.180755vw;
+      }
+  
+      .circle6 {
+        bottom: 28vw;
+      }
+  
+      .circle7 {
+        display: none;
+      }
     }
-
-    #worksSection2 {
-        // .container {
-        //     height: 90vh;
-        // }
-
-        .video_item {
-            max-width: 100%;
-            width: 100%;
-            height: 17vh;
-        }
-
-        .video_part {
-            width: 80%;
-            height: 14vh;
-        }
-
-        .purchase_btn {
-
-            a {
-                width: 80%;
-                height: 3vh;
-            }
-        }
+  
+    .works_section_num6 {
+      .video_item {
+        max-width: 50%;
+        width: 50%;
+      }
+  
+      .video_part {
+        width: 90%;
+        height: 13vh;
+      }
+  
+      .purchase_btn a {
+        width: 90%;
+        height: 3vh;
+      }
     }
-
-    #worksSection3 {
-        .video_item {
-            max-width: 50%;
-            width: 50%;
-        }
-
-        .video_part {
-            width: 90%;
-            height: 13vh;
-        }
-
-        .purchase_btn {
-
-            a {
-                width: 90%;
-                height: 3vh;
-            }
-        }
-
-    }
-
+  
     #campaignSec {
-        .inner {
-            .title_area {
-                margin-bottom: 4vh;
-            }
+      .inner .title_area {
+        margin-bottom: 4vh;
+      }
+  
+      .banner_content {
+        .line_banner_top, .line_banner_bottom {
+          height: 3vh;
         }
-
-        .banner_content {
-            .line_banner_top {
-                height: 3vh;
-            }
-
-            .line_banner_bottom {
-                height: 3vh;
-            }
-
-            .banner_item {
-                height: 30vh;
-                max-height: auto;
-            }
+  
+        .banner_item {
+          height: 30vh;
+          max-height: auto;
         }
+      }
     }
-
-    #clientSec {
-        .grid_wrapper {
-            height: 70vh;
-
-            .grid_item {
-                height: 23vh !important;
-            }
-        }
+  
+    #clientSec .grid_wrapper {
+      height: 70vh;
+  
+      .grid_item {
+        height: 23vh !important;
+      }
     }
-
-    #contactSec {
-        .company_area {
-            bottom: 9vw;
-        }
+  
+    #contactSec .company_area {
+      bottom: 9vw;
     }
-
-}
-
-
-@media screen and (min-width: 1360px) {
-    #worksSection1 {
-        .video_part {
-            .circle {
-                top: -80px;
-            }
-        }
+  }
+  
+  @media screen and (max-width: 500px) {
+    #hero {
+      .circle3 {
+        display: none;
+      }
+  
+      .circle4 {
+        min-width: 200px;
+        min-height: 200px;
+        top: 20vh;
+        right: -44.2711331757vw;
+      }
+  
+      .circle5 {
+        bottom: -26.180755vh;
+      }
+  
+      .circle6 {
+        bottom: 50vw;
+      }
+  
+      .circle8 {
+        bottom: 0vh;
+        right: -40.3502698037vw;
+      }
     }
-
-    #worksSection2 {
-
-        .video_part {
-            max-height: 29vh;
-
-            .circle {
-                top: -56px;
-            }
-        }
+  }
+  
+  @media screen and (min-width: 1360px) {
+    .works_section_num1 .video_part .circle {
+      top: -80px;
     }
-
-    #worksSection3 {
-        .video_part {
-            .circle {
-                top: -50px;
-            }
-        }
-
+  
+    .works_section_num6 .video_part .circle {
+      top: -50px;
     }
-}
-
-@media screen and (max-height: 1000px) {
-    #worksSection1 {
-        .video_part {
-            max-height: 60vh;
-        }
+  }
+  
+  @media screen and (max-height: 1000px) {
+    .works_section_num1 .video_part {
+      max-height: 60vh;
     }
-
-
-    #worksSection2 {
-        .video_part {
-            max-height: 24vh;
-        }
+  
+    .works_section_num6 .video_part {
+      max-height: 24vh;
     }
-
-    #worksSection3 {
-        .video_part {
-            max-height: 24vh;
-        }
-
-    }
-}
+  }
+  
